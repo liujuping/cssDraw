@@ -95,12 +95,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: static;
   width: 200px;
   height: 100px;
-  background: -webkit-radial-gradient(circle at bottom right, #ffd278 70%, rgba(0, 0, 0, 0) 0%) bottom left, -webkit-radial-gradient(circle at bottom left, #ffd278 70%, rgba(0, 0, 0, 0) 0%) bottom right;
-  background: -o-radial-gradient(circle at bottom right, #ffd278 70%, rgba(0, 0, 0, 0) 0%) bottom left, -o-radial-gradient(circle at bottom left, #ffd278 70%, rgba(0, 0, 0, 0) 0%) bottom right;
-  background: -ms-radial-gradient(circle at bottom right, #ffd278 70%, rgba(0, 0, 0, 0) 0%) bottom left, -ms-radial-gradient(circle at bottom left, #ffd278 70%, rgba(0, 0, 0, 0) 0%) bottom right;
-  background: radial-gradient(circle at bottom right, #ffd278 70%, rgba(0, 0, 0, 0) 0%) bottom left,radial-gradient(circle at bottom left, #ffd278 70%, rgba(0, 0, 0, 0) 0%) bottom right;
-  background-size: 50% 100%;
-  background-repeat: no-repeat;
+  border-radius: 50%/100% 100% 0 0;
+  background: #ffd278;
   margin: 0 auto;
 }
 .hat:after {

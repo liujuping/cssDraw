@@ -1,0 +1,104 @@
+@mixin  centerX {
+  margin: 0 auto;
+}
+
+@mixin gradient($arr){
+  $text1:'';
+  $text2:'';
+  $text3:'';
+  $text4:'';
+  @for $i from 1 through length($arr) {
+    @if $i==1 {
+      $text1:#{nth($arr,$i)};
+      $text2:-webkit-#{nth($arr,$i)};
+      $text3:-o-#{nth($arr,$i)};
+      $text4:-ms-#{nth($arr,$i)};
+    }
+    @else {
+
+      $text1:#{$text1},#{nth($arr,$i)};
+      $text2:#{$text2},-webkit-#{nth($arr,$i)};
+      $text3:#{$text3},-o-#{nth($arr,$i)};
+      $text4:#{$text4},-ms-#{nth($arr,$i)};
+    }
+  }
+  background: $text2;
+  background: $text3;
+  background: $text4;
+  background: $text1;
+}
+
+@mixin fireBoxShadow($arr) {
+  //(-65 167 20 80 0)
+  $text:'';
+  $code:',';
+  @for $i from 1 through length($arr) {
+    $a:nth($arr,$i);
+    $a1:10;
+    $a2:20;
+
+    @if length($a)>=4 {
+      $a1:nth($a,3);
+      $a2:nth($a,4);
+    }
+
+    @if $i==1 {
+      $text: #{nth($a,1)}px #{nth($a,2)}px #{$a1}px #{$a2}px $fire-color;
+    }
+    @else {
+      $text: #{$text} #{$code} #{nth($a,1)}px #{nth($a,2)}px #{$a1}px #{$a2}px $fire-color;
+
+    }
+  }
+
+
+
+  @for $i from 1 through length($arr) {
+    $a: nth($arr, $i);
+    $a1:10;
+    $a2:20;
+
+    @if length($a)>=4 {
+      $a1:nth($a,3);
+      $a2:nth($a,4);
+    }
+
+    @if length($a)!=5 {
+      $text: #{$text} #{$code} #{nth($a,1)}px #{nth($a,2)}px #{$a1 * 2}px #{$a2 * 1.5}px $fire-border-color;
+    }
+  }
+
+  @for $i from 1 through length($arr) {
+    $a: nth($arr, $i);
+
+    $a1:10;
+    $a2:20;
+
+    @if length($a)>=4 {
+      $a1:nth($a,3);
+      $a2:nth($a,4);
+    }
+    @if length($a)!=5 {
+      $text: #{$text} #{$code} #{nth($a,1)}px #{nth($a,2)}px #{$a1 * 5}px #{$a2 * 2}px $fire-wrap-color;
+    }
+  }
+  box-shadow: $text;
+}
+
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+  @-o-keyframes #{$animation-name} {
+    @content;
+  }
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
