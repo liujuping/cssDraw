@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>海贼王 三次元</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+<div class="wrap">
+    <div id="background" class="background">
+        <div class="people">
+            <div class="hat">
+                <div class="shadow"></div>
+            </div>
+            <div class="face">
+                <div class="eye"></div>
+                <div class="nose"></div>
+                <div class="mouse"></div>
+                <div class="ear"></div>
+                <div class="hear">
+                    <div class="hear1"></div>
+                    <div class="hear2"></div>
+                </div>
+            </div>
+            <div class="body">
+                <div class="neck">
+                    <div class="chest">
+                        <div class="shadow"></div>
+                        <div class="shadow1"></div>
+                        <div class="scar"></div>
+                    </div>
+                </div>
+                <div class="cloth">
+                    <div class="cloth-left">
+                        <div class="line"></div>
+                    </div>
+                    <div class="cloth-right">
+                        <div class="cloth-right-section"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fire-wrap fire-wrap1"></div>
+        <div class="fire-wrap fire-wrap2"></div>
+        <div class="fire-wrap fire-wrap3"></div>
+        <div class="fire-wrap fire-wrap4"></div>
+        <div class="fire-wrap fire-wrap5"></div>
+        <div class="fire-wrap fire-wrap6"></div>
+        <div style="opacity: 1"   class="fire-wrap fire-wrap7"></div>
+
+        <div id="fire" style="box-shadow:1px 1px 1px 1px;opacity: 1;" class="fire-wrap"></div>
+    </div>
+</div>
+</body>
+
+<script>
+
+    var arr='';
+    var fire=document.getElementById('fire');
+    document.getElementById('background').onclick=function(e){
+
+
+        fire.style.boxShadow += ','+ e.pageX+'px'+' '+ e.pageY+'px 1px 2px'+'#fff4c4';
+        arr+='('+ e.pageX+' '+ e.pageY+' 1 2'+')';
+        console.log(arr);
+    }
+</script>
+</html>
