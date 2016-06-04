@@ -667,6 +667,74 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   transform: translate3d(0, 0, 0);
 }
 
+@-webkit-keyframes fire-wrap1 {
+  0% {
+    opacity: 1;
+  }
+  14% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fire-wrap1 {
+  0% {
+    opacity: 1;
+  }
+  14% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fire-wrap1 {
+  0% {
+    opacity: 1;
+  }
+  14% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fire-wrap1 {
+  0% {
+    opacity: 1;
+  }
+  14% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 1;
+  }
+}
 @keyframes fire-wrap1 {
   0% {
     opacity: 1;
@@ -684,6 +752,74 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     opacity: 1;
   }
 }
+@-webkit-keyframes fire-wrap2 {
+  0% {
+    opacity: 0;
+  }
+  13% {
+    opacity: 0;
+  }
+  14% {
+    opacity: 1;
+  }
+  28% {
+    opacity: 1;
+  }
+  29% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes fire-wrap2 {
+  0% {
+    opacity: 0;
+  }
+  13% {
+    opacity: 0;
+  }
+  14% {
+    opacity: 1;
+  }
+  28% {
+    opacity: 1;
+  }
+  29% {
+    opacity: 0;
+  }
+}
+@-ms-keyframes fire-wrap2 {
+  0% {
+    opacity: 0;
+  }
+  13% {
+    opacity: 0;
+  }
+  14% {
+    opacity: 1;
+  }
+  28% {
+    opacity: 1;
+  }
+  29% {
+    opacity: 0;
+  }
+}
+@-o-keyframes fire-wrap2 {
+  0% {
+    opacity: 0;
+  }
+  13% {
+    opacity: 0;
+  }
+  14% {
+    opacity: 1;
+  }
+  28% {
+    opacity: 1;
+  }
+  29% {
+    opacity: 0;
+  }
+}
 @keyframes fire-wrap2 {
   0% {
     opacity: 0;
@@ -698,6 +834,74 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     opacity: 1;
   }
   29% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fire-wrap3 {
+  0% {
+    opacity: 0;
+  }
+  27% {
+    opacity: 0;
+  }
+  28% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 1;
+  }
+  43% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes fire-wrap3 {
+  0% {
+    opacity: 0;
+  }
+  27% {
+    opacity: 0;
+  }
+  28% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 1;
+  }
+  43% {
+    opacity: 0;
+  }
+}
+@-ms-keyframes fire-wrap3 {
+  0% {
+    opacity: 0;
+  }
+  27% {
+    opacity: 0;
+  }
+  28% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 1;
+  }
+  43% {
+    opacity: 0;
+  }
+}
+@-o-keyframes fire-wrap3 {
+  0% {
+    opacity: 0;
+  }
+  27% {
+    opacity: 0;
+  }
+  28% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 1;
+  }
+  43% {
     opacity: 0;
   }
 }
@@ -718,6 +922,74 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     opacity: 0;
   }
 }
+@-webkit-keyframes fire-wrap4 {
+  0% {
+    opacity: 0;
+  }
+  41% {
+    opacity: 0;
+  }
+  42% {
+    opacity: 1;
+  }
+  56% {
+    opacity: 1;
+  }
+  57% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes fire-wrap4 {
+  0% {
+    opacity: 0;
+  }
+  41% {
+    opacity: 0;
+  }
+  42% {
+    opacity: 1;
+  }
+  56% {
+    opacity: 1;
+  }
+  57% {
+    opacity: 0;
+  }
+}
+@-ms-keyframes fire-wrap4 {
+  0% {
+    opacity: 0;
+  }
+  41% {
+    opacity: 0;
+  }
+  42% {
+    opacity: 1;
+  }
+  56% {
+    opacity: 1;
+  }
+  57% {
+    opacity: 0;
+  }
+}
+@-o-keyframes fire-wrap4 {
+  0% {
+    opacity: 0;
+  }
+  41% {
+    opacity: 0;
+  }
+  42% {
+    opacity: 1;
+  }
+  56% {
+    opacity: 1;
+  }
+  57% {
+    opacity: 0;
+  }
+}
 @keyframes fire-wrap4 {
   0% {
     opacity: 0;
@@ -732,6 +1004,74 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     opacity: 1;
   }
   57% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fire-wrap5 {
+  0% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 0;
+  }
+  56% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  71% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes fire-wrap5 {
+  0% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 0;
+  }
+  56% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  71% {
+    opacity: 0;
+  }
+}
+@-ms-keyframes fire-wrap5 {
+  0% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 0;
+  }
+  56% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  71% {
+    opacity: 0;
+  }
+}
+@-o-keyframes fire-wrap5 {
+  0% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 0;
+  }
+  56% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  71% {
     opacity: 0;
   }
 }
@@ -752,6 +1092,74 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     opacity: 0;
   }
 }
+@-webkit-keyframes fire-wrap6 {
+  0% {
+    opacity: 0;
+  }
+  69% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes fire-wrap6 {
+  0% {
+    opacity: 0;
+  }
+  69% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0;
+  }
+}
+@-ms-keyframes fire-wrap6 {
+  0% {
+    opacity: 0;
+  }
+  69% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0;
+  }
+}
+@-o-keyframes fire-wrap6 {
+  0% {
+    opacity: 0;
+  }
+  69% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0;
+  }
+}
 @keyframes fire-wrap6 {
   0% {
     opacity: 0;
@@ -767,6 +1175,74 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
   85% {
     opacity: 0;
+  }
+}
+@-webkit-keyframes fire-wrap7 {
+  0% {
+    opacity: 0;
+  }
+  83% {
+    opacity: 0;
+  }
+  84% {
+    opacity: 1;
+  }
+  98% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fire-wrap7 {
+  0% {
+    opacity: 0;
+  }
+  83% {
+    opacity: 0;
+  }
+  84% {
+    opacity: 1;
+  }
+  98% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fire-wrap7 {
+  0% {
+    opacity: 0;
+  }
+  83% {
+    opacity: 0;
+  }
+  84% {
+    opacity: 1;
+  }
+  98% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fire-wrap7 {
+  0% {
+    opacity: 0;
+  }
+  83% {
+    opacity: 0;
+  }
+  84% {
+    opacity: 1;
+  }
+  98% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
   }
 }
 @keyframes fire-wrap7 {
