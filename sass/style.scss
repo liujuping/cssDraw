@@ -806,7 +806,25 @@ $arr:$arr1 $arr2 $arr3 $arr4 $arr5 $arr6 $arr7;
   }
 }
 
-@keyframes fire-wrap1 {
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+  @-o-keyframes #{$animation-name} {
+    @content;
+  }
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@include keyframes(fire-wrap1) {
   0% {
     opacity: 1;
   }
@@ -822,9 +840,11 @@ $arr:$arr1 $arr2 $arr3 $arr4 $arr5 $arr6 $arr7;
   99% {
     opacity: 1;
   }
-}
+};
 
-@keyframes fire-wrap2 {
+
+
+@include keyframes (fire-wrap2) {
   0% {
     opacity: 0;
   }
@@ -841,7 +861,7 @@ $arr:$arr1 $arr2 $arr3 $arr4 $arr5 $arr6 $arr7;
     opacity: 0;
   }
 }
-@keyframes fire-wrap3 {
+@include keyframes (fire-wrap3) {
   0% {
     opacity: 0;
   }
@@ -859,7 +879,7 @@ $arr:$arr1 $arr2 $arr3 $arr4 $arr5 $arr6 $arr7;
     opacity: 0;
   }
 }
-@keyframes fire-wrap4 {
+@include keyframes (fire-wrap4) {
   0% {
     opacity: 0;
   }
@@ -877,7 +897,7 @@ $arr:$arr1 $arr2 $arr3 $arr4 $arr5 $arr6 $arr7;
     opacity: 0;
   }
 }
-@keyframes fire-wrap5 {
+@include keyframes (fire-wrap5) {
   0% {
     opacity: 0;
   }
@@ -895,7 +915,7 @@ $arr:$arr1 $arr2 $arr3 $arr4 $arr5 $arr6 $arr7;
   }
 }
 
-@keyframes fire-wrap6 {
+@include keyframes (fire-wrap6) {
   0% {
     opacity: 0;
   }
@@ -913,7 +933,7 @@ $arr:$arr1 $arr2 $arr3 $arr4 $arr5 $arr6 $arr7;
     opacity: 0;
   }
 }
-@keyframes fire-wrap7 {
+@include keyframes (fire-wrap7) {
   0% {
     opacity: 0;
   }
